@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial;
+}
+
+.container{
+    text-align:center;
+}
+
+.logo{
+    font-size:80px;
+}
+
+input{
+    width:600px;
+    max-width:90%;
+    padding:15px;
+    border-radius:30px;
+    border:1px solid #ccc;
+    font-size:18px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    background:#f8f9fa;
+    cursor:pointer;
+}
+
+button:hover{
+    border:1px solid gray;
+}
